@@ -1,0 +1,242 @@
+<style>
+
+*{ margin:0; padding:0;box-sizing:border-box;} 
+
+body  {background: url(lesotho-3.jpg) no-repeat;
+      background-size:cover;
+	  height:100vh;
+	  background-position:left;
+	  font-family: sens-serif,Calibri;
+	 /*background-color:white;*/
+	  padding-bottom:58px;	 
+     }
+	 
+	 
+	 
+
+ h2 { color:white; background-color:rgba(0,0,0,.3); text-align:center;}	
+	 
+.mylinks { background-color:#2596be; text-align:center;	 width:100%;}
+
+.mylinks ul { text-align:center;}
+.mylinks ul li {
+			list-style:none;
+			display: inline-block; }
+			
+
+.mylinks ul li a {
+				display:block;
+				text-decoration:none;
+				text-transform:uppercase;
+				color:white;
+				font-size:15px;
+				letter-spacing:2px;
+				font-weight:600;
+				padding:14px;
+				transition:all ease 0.5s;
+			}	
+			
+.mylinks  ul li a:hover{background-color:lightgreen; }
+.homelink {background-color:lightgreen;}	 
+.menu-down {
+             display:none;
+			 
+            }
+.borrow:hover .menu-down {
+                               display:block;
+                               position:absolute;
+							   background-color:#2596be;
+							   margin-top:0px;
+							   margin-left:0px;
+							   }			
+	
+.home_links { color:white;   }
+
+
+
+
+
+	
+/*home page butttons style*/
+.main {
+       margin:0;
+	   padding:0;
+	   display:flex;
+	   justify-content:center;
+	   text-align:center;
+	   align-items:center;
+	   font-family: sens-serif,Calibri;
+
+      }
+	  
+	  
+.LL { background-color: rgba(0,0,0,.3); }
+.Lk2 { color:white;}	  
+
+
+.LL{
+   position:relative;
+   display:inline-block;
+   padding:15px 30px;
+   color:white;
+   text-transform:uppercase;
+   letter-spacing:4px;
+   text-decoration:none;
+   font-size:24px;
+   overflow:hidden;
+   transition:0.2s;
+   }
+ .LL:hover {
+ 
+         color:white;
+		 background:#2596be;
+		 box-shadow: 0 0 16px #2596be, 0 0 40px #2596be;
+         transition-delay: 0.1s;
+ 
+ 
+ 
+         } 
+/*end  home page buttons style*/	
+
+
+
+
+
+
+/****************ads slider style********************************/
+.slide img { height:110px;
+           width:160px;
+          }
+.try-img {item-align:center;}
+ 
+/*******END of ads slider style*********/
+
+
+
+
+
+
+
+/********* <table class="view"> *******************/
+
+.view {  margin-left:auto;
+		margin-right:auto;
+        text-align:center;
+		color:white;
+		margin-top:150px;
+		
+		}
+img{      
+          width:100px;
+		  height:90px;
+		  
+}
+
+.my-icon {
+	width:180px;
+    height:180px;	
+	text-align:center;
+
+}
+.tr-small {
+	
+    height:80px;
+}
+h3 {background-color:rgba(0,0,0,.4);
+}
+h3:hover {  color:white;
+		 background:#2596be;
+		 box-shadow: 0 0 16px #2596be, 0 0 40px #2596be;
+         transition-delay: 0.1s;
+		 }
+		 
+	 
+
+/****************************/
+
+
+
+ /*****media Queries******/
+@media (max-width:700px){
+
+  .view {  margin-left:auto;
+		margin-right:auto;
+        text-align:center;
+		color:white;
+		margin-top:150px;
+		
+		}
+img{      
+          width:60px;
+		  height:50px;
+		  
+}
+
+.my-icon {
+	width:100px;
+    height:100px;	
+	text-align:center;
+
+}
+.tr-small {
+	
+    height:40px;
+}
+h3 {background-color:rgba(0,0,0,.4); font-size:15px;
+}
+h3:hover {  color:white;
+		 background:#2596be;
+		 box-shadow: 0 0 16px #2596be, 0 0 40px #2596be;
+         transition-delay: 0.1s;
+		 }
+
+	  
+.LL { background-color: rgba(0,0,0,.3); }
+.Lk2 { color:white;}	  
+
+
+.LL{
+   position:relative;
+   display:inline-block;
+   padding:10px 20px;
+   color:white;
+   text-transform:uppercase;
+   letter-spacing:2px;
+   text-decoration:none;
+   font-size:18px;
+   overflow:hidden;
+   transition:0.2s;
+   }
+ .LL:hover {
+ 
+         color:white;
+		 background:#2596be;
+		 box-shadow: 0 0 16px #2596be, 0 0 40px #2596be;
+         transition-delay: 0.1s;
+ 
+ 
+ 
+         } 
+
+
+}
+ /*****media Queries******/
+
+
+	
+.footer {
+		text-align:center;
+		 background-color:#2596be;
+		
+		color:white;
+		padding:1px;
+		position:fixed;
+		left:0;
+		right:0;
+        bottom:0;
+         margin-top:15px;
+		z-index:1;
+      }	
+			
+
+</style>

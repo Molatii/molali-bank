@@ -1,0 +1,244 @@
+<!--PABALLO MOLATI -->
+<!DOCTYPE html>
+<head>
+<meta charset="uft-8"> 
+<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+<title> Molati Bank Feedback</title>
+<link rel="stylesheet" type="text/css" href="thestyles.css">
+<link rel="stylesheet" type="text/css" href="thestyles_two.css">
+<link rel="stylesheet" type="text/css" href="thestyles_three.css">
+</head>
+<body class="my-body">
+ <!---Stating of header in the webpage body-->
+<header>
+ 
+	    <div class="mylinks">
+		
+	    	<h2>MOLATI BANK OF LESOTHO</h2>	
+		 
+			<ul>
+				<li><a  href="Welcome_page.html">Home</a></li>
+				
+				      <li class="borrow"> <a  href="#">Borrow(Take loan)</a>
+					   <!---borrow list will be used as a drop down to show list of loans available-->
+					       <div class="menu-down">
+						   
+						      <ul class="down">
+						            
+							        <li><a  href="home_loan.html">Home Loan</a></li>				
+									<li><a  href="vehicle_loan.html">Vehicle Loan</a></li>
+									<li><a  href="personal_loan.html">Personal Loan</a></li>					   
+						   
+						      </ul>
+							  
+					       </div>
+					     <!---END OF :  drop down  list of loans available-->
+						 
+					  </li>	
+				
+				
+				<li><a  href="log_in.html">Online Backing</a></li>				
+				<li><a  href="contact_us.html">contact Us</a></li>
+				<li><a  href="about_us.html">About Us</a></li>
+				<li>
+				  <!---simply form used to search-->
+				<form class="mysearch"ction="search.php" method="post">
+		          <input type="text" name="search_meal" placeholder="Search Here">	
+
+				<button type="submit" name="search">search</button>
+				</li>
+			    </form>	
+				
+	        </ul>
+	  
+	    </div> 
+
+</header>
+
+<!--END OF : header with Home_page.html links etc...-->
+
+  <!---Div wrapper will contain the grind-->
+<div class="wrapper">
+         
+		 <!---top-->
+		 <section class="top-container">
+		 
+		   <!---The showcase will have a background of an image and the text in following showcase will be on the image-->
+		    <header class="showcase">
+			
+                    <h1>You Don't Have An Account? </h1>
+					
+					<p>You Can Simply Open An Account online and get Your Credit Card At the Bank.<br>Simply Click the Link(Button) Below.</p>
+					
+					<h3 class="loan"><a href="register.html"> create Account</a></h3>
+		 
+		   </header>
+		   <!----showcase ends here-->
+		   
+		   <!---grind called top-box-a will contain a form--->
+		   <div class="top-box top-box-a">
+		   
+		     <h2 class="h2">Send Your FeedBack</h2>
+			 
+			   <!---Form used to send feedback-->
+		<form  action="feedback.html" method="post" onsubmit="return feedback()">
+			<fieldset>
+	        
+				
+				<label for="Email">Email Address</label><br>
+				<input type="email" name="Email Address" placeholder="Your Email Address" id="Email"/>
+				<br>
+								
+				<label for="message">Write a Feedback message below </label><br>
+				<textArea name="message" rows="5" cols="50"></textarea><br>
+				<button type="submit" name="submit" value="submit">Send Message</button> 
+			
+			 </fieldset>
+	     </form>
+			
+			
+			
+		   
+		   </div>
+		   
+		 </section>	
+		<!--END OF : top-container grid(section) --> 
+		
+		
+		
+		
+		 
+       <!-- the following grid(section) will be used for slider ads with images-->
+		 
+		 <section class="bank-ads">
+		 
+		    <div class="our-ads">
+		       <div class="img-slider">
+             
+                    <div class="slider active">
+
+							    <img src="lesotho.jpg" alt=""> 
+								<div class="infor">
+								
+								  <!---the following text will be on the image above-->
+								     <h2>Why Take a Loan with Us</h2>
+								     <h3> In the previous section you learned what an activity is and how to use it. In a small-screen device
+								     (such as a smartphone). </h3>
+								</div>
+
+                    </div>
+					
+                    <div class="slider">
+
+								 <img src="lesotho_2.jpg" alt=""> 
+									<div class="infor">
+									
+									<!---the following text will be on the image above-->
+									 <h2>Why Take a Loan with Us</h2>
+									 <h3> In the previous section you learned what an activity is and how to use it. In a small-screen device
+									   (such as a smartphone). </h3>
+									</div>
+
+                    </div>		
+
+                    <div class="slider">
+
+										 <img src="lesotho.jpg" alt=""> 
+											<div class="infor">
+											
+											<!---the following text will be on the image above-->
+											 <h2>Why Take a Loan with Us</h2>
+											 <h3> In the previous section you learned what an activity is and how to use it. In a small-screen device
+											   (such as a smartphone). </h3>
+											</div>
+
+                    </div>
+					
+                    <div class="slider">
+
+								 <img src="lesotho-3.jpg" alt=""> 
+									<div class="infor">
+									
+									<!---the following text will be on the image above--> 
+								    	<h2>Why Take a Loan with Us</h2>
+									 <h3> In the previous section you learned what an activity is and how to use it. In a small-screen device
+									   (such as a smartphone). </h3>
+									</div>
+
+                    </div>	
+
+                 <!--the navigation can be used by the user or show number of images used the slider ---->
+				<div class="navigation">
+				   
+				   <div class="btn active"> </div>
+				   <div class="btn"> </div>
+				   <div class="btn"> </div>
+				   <div class="btn"> </div>
+									
+				   
+				  
+				
+				</div>
+					
+
+        </div>
+		    
+		    </div>
+		 
+		 
+		 
+		 
+		<!--reference to java.js file --> 
+		 
+		<script src="java.js">
+	
+		</script>
+		<!--END reference to java.js file --> 
+		
+		 </section>
+		 
+	 <!--END OF : the grid(section) which was used for slider ads with images-->
+		 
+		 
+		 	 
+		 
+		 
+
+       <!-- Grid(section) for social media Links with images-->  
+		<section class="boxes">
+
+			   <div class="box">
+                 
+				   <img class="my-i"src="a.jfif">
+				   <h3><a class="link" href="https://web.facebook.com/business"> Chart With Us On Facebook </a></h3>			  
+				  
+				   </div>
+				   <div class="box">
+                 
+				   <img class="my-i" src="b.jfif">
+				   <h3><a class="link" href="http://twitter.com"> Chart With Us On Twitter </a></h3>			  
+				  
+				   </div>
+				   <div class="box">
+                 
+				   <img class="my-i" src="c.jfif">
+				   <h3><a class="link" href="https://www.instagram.com/"> Chart With Us On Instagram </a></h3>			  
+				  
+				</div>
+
+        </section>		
+		  <!--END OF : Grid(section) for social media Links with images--> 
+		 
+		  <footer>  
+	           
+              <p>Copyright&copy:Molati Bank Of Lesotho 2021 | Designed by Paballo Molati</p>
+		
+	  </footer>
+
+</div>
+
+
+
+
+</body>
+</html>
